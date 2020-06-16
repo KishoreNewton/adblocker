@@ -1,0 +1,14 @@
+{
+    "name": "Adblocker",
+    "version": "1.0",
+    "description": "simple adblocker",
+    "permissions": [
+        "webRequest", "webRequestBlocking", "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "index.js"
+        ]
+    }, 
+    "manifest_version": 2
+}
