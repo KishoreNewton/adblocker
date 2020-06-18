@@ -10,7 +10,7 @@ chrome.webRequest.onBeforeRequest.addListener(
             "*://*.zedo.com/*",
             "*://*.example.com/*",
             "*://*.example2.com/*",
-            "*://*.ads.google.com/*"
+            "*://ads.google.com/*"
         ]
     },
     ["blocking"]
